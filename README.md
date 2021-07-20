@@ -33,3 +33,7 @@ Steps Until Completion:
 	Learn about Art
 	How To Play 
 	Settings     
+
+mock GUI Examples:
+
+![image](https://user-images.githubusercontent.com/73653161/126344719-c9a58030-a707-46b6-87e5-108b200d6d6b.png)
