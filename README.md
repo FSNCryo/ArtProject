@@ -36,4 +36,4 @@ Steps Until Completion:
 
 mock GUI Examples:
 
-![image](https://user-images.githubusercontent.com/73653161/126344719-c9a58030-a707-46b6-87e5-108b200d6d6b.png)
+![image](https://user-images.githubusercontent.com/73653161/126344910-ac0f8160-f9f0-4fd7-bba0-3c234d3bed3b.png)
