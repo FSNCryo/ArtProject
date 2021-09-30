@@ -9,6 +9,6 @@ Steps Until Completion:
 
 	2. start with back-end
 
-	3. create GUI in c# or maybe even unity.
+    3. Link Backend with GUI
 
 	4. bug test
