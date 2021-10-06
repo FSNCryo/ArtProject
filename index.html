@@ -195,6 +195,9 @@
             cursor: pointer;
             display: inline-block;
         }
+        .shadow:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
     </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -271,20 +274,20 @@
 
         <div class="col-sm-4">
             <a href="Explore/explore.html">
-            <button type="button" class="btn btn-default">
-                <span  class="glyphicon glyphicon-list logo-small"></span>
-            </button>
+                <button type="button shadow" class="btn btn-default">
+                    <span  class="glyphicon glyphicon-list logo-small"></span>
+                    <h4>EXPLORE</h4>
+                    <p>Simple but Relaxing way to Learn.</p>
+                </button>
             </a>
-            <h4>EXPLORE</h4>
-            <p>Simple but Relaxing way to Learn.</p>
         </div>
 
 
         <div class="col-sm-4">
             <a href="Quiz/quiz.html">
-                <button type="button" class="btn btn-default">
-                    <span class="glyphicon glyphicon-edit logo-small"></span>
-                </button>
+            <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-edit logo-small"></span>
+            </button>
             <h4>QUIZ</h4>
             <p>Fully Test Your Skills With a Quiz.</p>
             </a>
