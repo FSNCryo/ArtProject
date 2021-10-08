@@ -219,18 +219,13 @@
         .shadow:hover {
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 33%;
-            text-align: center;
-            transform: translate(-50%, -50%);
-            background-color: rgba(80, 79, 79, 0.69);
-            color: #ffffff;
-        }
         img:hover {
             webkit-filter: blur(4px); /* Chrome, Safari, Opera */
             filter: blur(4px);
+        }
+        .nameofthing {
+            color: #FF1F98;
+            background-color: #fff;
         }
     </style>
 </head>
@@ -281,13 +276,17 @@
     </div>
 </div>
 
+
+
+
+
 <script>
     function OUT1(obj) {
         document.getElementById("moo1").innerHTML = ""
     }
 
     function OVER1(obj) {
-        document.getElementById("moo1").innerHTML = "cool image! right"
+        document.getElementById("moo1").innerHTML = "Artist: James Leakey"
     }
 </script>
 
@@ -296,10 +295,19 @@
     <div>
         <button type="button" class="btn btn-default shadow">
             <img onmouseover="OVER1(this)" onmouseout="OUT1(this)" src="https://cdn2.swcollectionsexplorer.org.uk/sizer/webroot/img.php?crop-to-fit&width=510&src=ramm/images/25-1999-3.jpg" alt="Img Couldn't Load">
-            <div id="moo1" class="centered"></div>
+            <div id="moo1"></div>
         </button>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
 
 
 <div class="container-fluid">
