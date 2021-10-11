@@ -228,7 +228,11 @@
             background-color: #fff;
         }
         .txtOverlay {
-
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.25);
+            text-align: left;
+            position: absolute;
+            transform: translate(10%, -100%);
         }
     </style>
 </head>
@@ -284,12 +288,22 @@
 
 
 <script>
+    Toggle = true;
     function OUT1(obj) {
-        document.getElementById("moo1").innerHTML = ""
+        if (Toggle = true) {
+            document.getElementById("moo1").style.transform = "translate(150%, -100%)";
+            Toggle = false;
+        }
+        if (Toggle = false) {
+            document.getElementById("moo1").style.transform = "translate(10%, -100%)";
+            Toggle = true;
+        }
+        document.getElementById("moo1").innerHTML = "";
     }
 
     function OVER1(obj) {
-        document.getElementById("moo1").innerHTML = "Name: Devonshire Landscape<br>Artist: James Leakey<br>Period: Victorian (1837-1901)<br>Date: 1840"
+
+        document.getElementById("moo1").innerHTML = "Name: Devonshire Landscape<br>Artist: James Leakey<br>Period: Victorian (1837-1901)<br>Date: 1840";
     }
 </script>
 
@@ -297,8 +311,8 @@
 <div class="col-sm-8">
     <div>
         <button type="button" class="btn btn-default shadow">
-            <img onmouseover="OVER1(this)" onmouseout="OUT1(this)" src="https://cdn2.swcollectionsexplorer.org.uk/sizer/webroot/img.php?crop-to-fit&width=510&src=ramm/images/25-1999-3.jpg" alt="Img Couldn't Load">
-            <div id="moo1"></div>
+            <img onmouseover="OVER1(this)" onmouseleave="OUT1(this)" src="https://cdn2.swcollectionsexplorer.org.uk/sizer/webroot/img.php?crop-to-fit&width=510&src=ramm/images/25-1999-3.jpg" alt="Img Couldn't Load">
+            <div class="txtOverlay shadow" id="moo1"></div>
         </button>
     </div>
 </div>
