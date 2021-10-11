@@ -208,7 +208,7 @@
             transition-duration: 0.4s;
         }
         aside {
-            width: 5%;
+            width: 7%;
             padding-left: 15px;
             margin-left: 15px;
             float: right;
@@ -226,6 +226,9 @@
         .nameofthing {
             color: #FF1F98;
             background-color: #fff;
+        }
+        .txtOverlay {
+
         }
     </style>
 </head>
@@ -286,7 +289,7 @@
     }
 
     function OVER1(obj) {
-        document.getElementById("moo1").innerHTML = "Artist: James Leakey"
+        document.getElementById("moo1").innerHTML = "Name: Devonshire Landscape<br>Artist: James Leakey<br>Period: Victorian (1837-1901)<br>Date: 1840"
     }
 </script>
 
@@ -314,26 +317,28 @@
     <div class="row">
         <aside>
             <form>
-                <input type="checkbox" id="1400s" name="1400s" value="1400-1500">
-                <label for="1400s"> 1400-1500</label><br>
+                <h5>
+                    <input type="checkbox" id="1400s" name="1400s" value="1400-1500">
+                    <label for="1400s"> 1400-1500</label><br>
 
-                <input type="checkbox" id="1500s" name="1500s" value="1500-1600">
-                <label for="1500s"> 1500-1600</label><br>
+                    <input type="checkbox" id="1500s" name="1500s" value="1500-1600">
+                    <label for="1500s"> 1500-1600</label><br>
 
-                <input type="checkbox" id="1600s" name="1600s" value="1600-1700">
-                <label for="1600s"> 1600-1700</label><br>
+                    <input type="checkbox" id="1600s" name="1600s" value="1600-1700">
+                    <label for="1600s"> 1600-1700</label><br>
 
-                <input type="checkbox" id="1700s" name="1700s" value="1700-1800">
-                <label for="1700s"> 1700-1800</label><br>
+                    <input type="checkbox" id="1700s" name="1700s" value="1700-1800">
+                    <label for="1700s"> 1700-1800</label><br>
 
-                <input type="checkbox" id="1800s" name="1800s" value="1800-1900">
-                <label for="1800s"> 1800-1900</label><br>
+                    <input type="checkbox" id="1800s" name="1800s" value="1800-1900">
+                    <label for="1800s"> 1800-1900</label><br>
 
-                <input type="checkbox" id="1900s" name="1900s" value="1900-2000">
-                <label for="1900s"> 1900-2000</label><br>
+                    <input type="checkbox" id="1900s" name="1900s" value="1900-2000">
+                    <label for="1900s"> 1900-2000</label><br>
 
-                <input type="checkbox" id="2000s" name="2000s" value="2000+">
-                <label for="2000s"> 2000+</label><br>
+                    <input type="checkbox" id="2000s" name="2000s" value="2000+">
+                    <label for="2000s"> 2000+</label><br>
+                </h5>
             </form>
         </aside>
     </div>
