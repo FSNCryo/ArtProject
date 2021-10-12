@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Theme Made By www.w3schools.com -->
+    <title>Bootstrap Theme Company Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            font: 400 15px Lato, sans-serif;
+            line-height: 1.8;
+            color: #818181;
+        }
+        h2 {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #303030;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        h4 {
+            font-size: 19px;
+            line-height: 1.375em;
+            color: #303030;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        .slideanim {visibility:hidden;}
+        .btn {
+            border: none;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+        .btn2 {
+            height:2%;
+            width:30%;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+        .shadow:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        </style>
+</head>
+
+
+<div class="container">
+    <h2>Todo List Maker</h2>
+    <p>Try Adding, Viewing, Editing and Deleting your list!</p>
+    <form class="form-horizontal">
+        <div class="col-xs-3 input-group">
+            <span class="input-group-addon">Todo</span>
+            <input id="msg" type="text" class="form-control" name="msg" placeholder="List Item">
+        </div>
+        <div class="col-xs-3 input-group">
+            <a href="#">
+                <button type="button" class="btn2 btn-default shadow">
+                    <h4>Add</h4>
+                </button>
+            </a>
+        </div>
+    </form>
+</div>
+
+
+
+</body>
+</html>
